@@ -1,6 +1,6 @@
- sentence = input("write a sentence")
-words = sentence.split # split separates the words in a sentence
-print (len(words))# len counts the letter or words 
+sentence = input("Write a sentence") #asks person to write a sentence
+words = sentence.split() # split breaks the sentence into separate words
+print(len(words)) #len counts the words or letters 
 
 
 x = input("write a number")
