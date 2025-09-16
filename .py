@@ -1,5 +1,3 @@
-sentence= "I am pro"
-
-print(len(sentence))
-for word in "sentence":
-    print(word)
+sentence = input("write a sentence? ")
+words = sentence.split # split separates the words in a sentence
+print(len(words)) # len counts the letter or words
