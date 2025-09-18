@@ -19,9 +19,9 @@
 # if x=="great" :
 #      print("25% tip")
 
-x= (int(input("write a number")))
-def factors (x,y):
-    f= x%y==0
-    print(f)
+x= (int(input("write a number"))) 
+for i in range(1,x+1): # i is representing the numbers inside the parenthesis
+    if x%i==0: #checks if the number is a factor of x
+        print(i) # if it is it prints the number
 
 
