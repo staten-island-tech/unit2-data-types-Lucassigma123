@@ -19,9 +19,15 @@
 # if x=="great" :
 #      print("25% tip")
 
+# x= (int(input("write a number"))) 
+# for i in range(1,x+1): # i is representing the numbers inside the parenthesis
+#     if x%i==0: #checks if the number is a factor of x
+#         print(i) # if it is it prints the number
+
 x= (int(input("write a number"))) 
-for i in range(1,x+1): # i is representing the numbers inside the parenthesis
-    if x%i==0: #checks if the number is a factor of x
-        print(i) # if it is it prints the number
-
-
+y= (int(input("write a number")))
+for i in range(1,x+1 )and (1,y+1):
+      break
+for i in range(1,y+1):
+         if x%i and y%1:
+              print(i)

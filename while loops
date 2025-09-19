@@ -1,0 +1,26 @@
+import random
+while True:
+    print("running")
+x=5
+i=0
+while i <5:
+    print(i)
+    i +=1
+
+x= input("do you wanna buy a thing?")
+while x== "y":
+    item = input("what ya wanna buy")
+print("thank you for purchase")
+y= random.radint(1.100)
+print (y)
+x= 65
+def test():
+    x=50
+    print(x)
+    test()
+    print(x)
+
+    while ture:
+        print("running")
+        if x==0:
+             break #breaks a loop
