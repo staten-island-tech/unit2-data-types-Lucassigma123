@@ -31,3 +31,4 @@ for i in range(1,x+1 )and (1,y+1):
 for i in range(1,y+1):
          if x%i and y%1:
               print(i)
+              
