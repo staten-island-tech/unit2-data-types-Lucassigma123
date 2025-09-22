@@ -26,9 +26,7 @@
 
 x= (int(input("write a number"))) 
 y= (int(input("write a number")))
-for i in range(1,x+1 )and (1,y+1):
-      break
-for i in range(1,y+1):
-         if x%i and y%1:
+for i in range(1,x+1) and (1,y+1):
+      if x%i==0 and y%i==0:      
               print(i)
-              
+
