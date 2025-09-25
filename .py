@@ -26,8 +26,7 @@
 
 x= (int(input("write a number"))) 
 y= (int(input("write a number")))
-for i in range(min(x, y), 0, -1): #min is find the smallest number x or y and its goes down by 1 and stops at 0
-    if x%i ==0 and y%i==0: #checks if x divide by y has no remainder
-        print(i)
-        break #stops loop
- 
+for i in range(min(x,y)(0,-1)):
+      if x%i==0 and y%i==0:      
+              print(i)
+
