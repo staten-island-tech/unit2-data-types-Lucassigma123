@@ -26,7 +26,7 @@
 
 x= (int(input("write a number"))) 
 y= (int(input("write a number")))
-for i in range(min(x,y)(0,-1)):
+for i in range(min(x,y)(0,-1)): # min is starts at lowest number x or y (0,-1) stops at 0 and subtracts by 1
       if x%i==0 and y%i==0:      
               print(i)
 
